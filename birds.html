@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NJ Wildlife - Birds</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="birds">
+    <div id="header">
+      <div class="container">
+        <img src="logo-image.png" class="logo-image">
+        <a href="index.html" id="header-title" style="margin-left: 20px;"
+          >NJ Wildlife</a
+        >
+        <ul id="header-nav"> 
+          <li><a href="mammals.html">Mammals</a></li>
+          <li class="dropdown">
+            <a href="birds.html" class="dropbtn">Birds &#8659</a>
+            <div id="dropdown-content">
+              <a onclick="window.scrollTo({ top: 160, behavior: 'smooth' })">
+                Canada Goose
+              </a>
+              <a onclick="window.scrollTo({ top: 942, behavior: 'smooth' })">
+                Mallard
+              </a>
+            </div>
+          </li>
+          <li><a href="arthropods.html">Arthropods</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="references.html">References</a></li>
+          <li style="margin-right: 20px;">
+            <a href="mailto:alex.platonjunior@gmail.com">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <img class="content-image" id="canada-goose" src="bio_files/image018.png" alt="Canada Goose<br />Danhert’s Lake, Garfield, New Jersey on 11/11/19 at 3:52 PM" width="300" height="auto" onclick="insertModal('canada-goose')">
+        <img class="content-image" id="mallard" src="bio_files/image058.jpg" alt="Mallard<br />DeKorte Park, Lyndhurst, New Jersey on 11/1/19 at 4:52 PM" width="300" height="auto" onclick="insertModal('mallard')">
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <div class="column">
+          <h4>The Project</h4>
+          <p>
+            The goal of this project is to use<br />
+            the obtained knowledge and implement<br />
+            the WETL concept into a functional website.
+          </p>
+        </div>
+        <div class="column">
+          <h4>My Story</h4>
+          <p>This website was created by Alex Platon,<br />
+          student at HHHS.</p>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  </body>
+</html>
