@@ -20,12 +20,12 @@
         <ul id="header-nav"> 
           <li><a href="mammals.html">Mammals</a></li>
           <li class="dropdown">
-            <a href="birds.html" class="dropbtn">Birds &#8659</a>
+            <a class="dropbtn">Birds &#8659</a>
             <div id="dropdown-content">
-              <a onclick="window.scrollTo({ top: 160, behavior: 'smooth' })">
+              <a onclick="document.getElementById('canada-goose-headline').scrollIntoView({ block: 'start',  behavior: 'smooth' });">
                 Canada Goose
               </a>
-              <a onclick="window.scrollTo({ top: 942, behavior: 'smooth' })">
+              <a onclick="document.getElementById('mallard-headline').scrollIntoView({ block: 'start',  behavior: 'smooth' });">
                 Mallard
               </a>
             </div>
@@ -41,8 +41,28 @@
     </div>
     <div class="content">
       <div class="container">
-        <img class="content-image" id="canada-goose" src="bio_files/image018.png" alt="Canada Goose<br />Danhert’s Lake, Garfield, New Jersey on 11/11/19 at 3:52 PM" width="300" height="auto" onclick="insertModal('canada-goose')">
-        <img class="content-image" id="mallard" src="bio_files/image058.jpg" alt="Mallard<br />DeKorte Park, Lyndhurst, New Jersey on 11/1/19 at 4:52 PM" width="300" height="auto" onclick="insertModal('mallard')">
+        <h1>Birds Found in New Jersey</h1>
+        <hr class="cutline">
+        <div class="animal-content">
+          <h2 id="canada-goose-headline">Canada Goose</h2>
+          <h4>Branta canadensis</h4>
+          <img class="content-image" id="canada-goose" src="bio_files/image018.png" alt="Canada Goose<br />Danhert’s Lake, Garfield, New Jersey on 11/11/19 at 3:52 PM" width="350" height="auto" onclick="insertModal('canada-goose')">
+          <p><u><b>Description</b></u><br> The black head and neck with a white "chinstrap" distinguish the Canada goose from all other goose species. The seven subspecies of this bird vary widely in size and plumage details, but all are recognizable as Canada geese. Canada geese range from 30 to 43 in in length and have a 50–73 in wingspan. The male Canada goose usually weighs 5.7–14.3 lb, averaging amongst all subspecies 8.6 lb. The female looks virtually identical, but is slightly lighter at 5.3–12.1 lb, averaging amongst all subspecies 7.9 lb, and generally 10% smaller in linear dimensions than the male counterparts. The female also possesses a different, less sonorous, honk than the male.</p>
+          <p><u><b>Diet</b></u><br> Their diet can generally be categorized as herbivorous and consists mainly of leaves, grass, seeds, berries, algae, and roots. The lamella on the edge of their bill helps during grazing, when grass is removed by making a jerking motion with their head. Occasionally, aquatic invertebrates, insects, small fish, crustaceans, and mollusks may be dined upon, generally during juvenile development, when rearing goslings, or during breeding, where more nutrients are necessary. If environmental conditions prevent food from being obtained, Canada geese can go up to 30 days without food. In urban areas, it is also known to pick food out of garbage bins. They are also sometimes hand-fed a variety of grains and other foods by humans in parks.</p>
+          <img class="content-image range" id="canada-goose-range" src="bio_files/canada-goose-range.jpg" width="300" height="auto" style="float: right;">
+          <p><u><b>Range/habitat</b></u><br> This species is native to North America. Canada geese occur year-round in the southern part of their breeding range, including most of the eastern seaboard and the Pacific coast. In recent years, Canada goose populations in some areas have grown substantially, so much so that many consider them pests for their droppings, bacteria in their droppings, noise, and confrontational behavior. This problem is partially due to the removal of natural predators and an abundance of safe, man-made bodies of water near food sources, such as those found on golf courses, in public parks and beaches, and in planned communities. Due in part to the interbreeding of various migratory subspecies, Canada geese are frequently a year-around feature of such urban environments.</p>
+          <p><u><b>Migration</b></u><br> Canada geese are known for their seasonal migrations. Most Canada geese have staging or resting areas where they join up with others. Their autumn migration can be seen from September to the beginning of November. The early migrants have a tendency to spend less time at rest stops and go through the migration much faster. The later birds usually spend more time at rest stops. Some geese return to the same nesting ground year after year and lay eggs with their mate, raising them in the same way each year. </p>
+        </div>
+        
+        <div class="animal-content">
+          <h2 id="mallard-headline">Mallard</h2>
+          <h4>Anas platyrhynchos</h4>
+          <img class="content-image" id="mallard" src="bio_files/image058.jpg" alt="Mallard<br />DeKorte Park, Lyndhurst, New Jersey on 11/1/19 at 4:52 PM" width="400" height="auto" onclick="insertModal('mallard')">
+          <p><u><b>Description</b></u><br> The mallard is a medium-sized waterfowl species that is often slightly heavier than most other dabbling ducks. It is 20–26 in long – of which the body makes up around two-thirds – has a wingspan of 32–39 in, and weighs 1.6–3.5 lb. The breeding male mallard is unmistakable, with a glossy bottle-green head and a white collar that demarcates the head from the purple-tinged brown breast, grey-brown wings, and a pale grey belly. The rear of the male is black, with white-bordered dark tail feathers. The bill of the male is a yellowish-orange tipped with black, with that of the female generally darker and ranging from black to mottled orange and brown. The female mallard is predominantly mottled, with each individual feather showing sharp contrast from buff to very dark brown, a coloration shared by most female dabbling ducks, and has buff cheeks, eyebrow, throat, and neck, with a darker crown and eye-stripe. Both male and female mallards have distinct iridescent purple-blue speculum feathers edged with white, which are prominent in flight or at rest but temporarily shed during the annual summer moult. Upon hatching, the plumage of the duckling is yellow on the underside and face (with streaks by the eyes) and black on the back (with some yellow spots) all the way to the top and back of the head. Its legs and bill are also black. As it nears a month in age, the duckling's plumage starts becoming drab, looking more like the female, though more streaked, and its legs lose their dark grey coloring.</p>
+          <p><u><b>Diet</b></u><br> The mallard is omnivorous and very flexible in its choice of food. Its diet may vary based on several factors, including the stage of the breeding cycle, short-term variations in available food, and nutrient availability. The majority of the mallard's diet seems to be made up of gastropods, invertebrates, crustaceans, worms, many varieties of seeds, plant matter, roots and tubers. Plants generally make up the larger part of a bird's diet, especially during autumn migration and in the winter. The mallard usually feeds by dabbling for plant food or grazing; there are reports of it eating frogs. It usually nests on a river bank, but not always near water. It is highly gregarious outside of the breeding season and forms large flocks, which are known as sords.</p>
+          <img class="content-image range" id="mallard-range" src="bio_files/mallard-range.png" width="300" height="auto" style="float: right;">
+          <p><u><b>Range/habitat</b></u><br> The mallard is widely distributed across the Northern and Southern Hemispheres; in North America its range extends from southern and central Alaska to Mexico. The mallard inhabits a wide range of habitats and climates, from Arctic tundra to subtropical regions. It is found in both fresh- and salt-water wetlands, including parks, small ponds, rivers, lakes and estuaries, as well as shallow inlets and open sea within sight of the coastline. Water depths of less than 3.0 ft are preferred, with birds avoiding areas more than 15 feet deep. They are attracted to bodies of water with aquatic vegetation.</p>
+        </div>
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
