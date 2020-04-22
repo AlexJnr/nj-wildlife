@@ -134,10 +134,10 @@ li.dropdown {
   transition: opacity 0.1s linear;
 }
 .birds #dropdown-content{
-	right: 660px;
+	right: 760px;
 }
 .arthropods #dropdown-content{
-	right: 510px;
+	right: 625px;
 }
 #dropdown-content a {
   text-decoration: none;
