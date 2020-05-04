@@ -310,3 +310,14 @@ li.dropdown {
 	font-size: 16px;
 	padding: 0px;
 }
+.references p{
+	text-align: left;
+}
+.references p a{
+	text-decoration: underline;
+	color: #555;
+	transition: color 0.1s ease-out;
+}
+.references p a:hover{
+	color: #7aa80d;
+}
