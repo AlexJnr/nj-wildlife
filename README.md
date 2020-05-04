@@ -1,3 +1,8 @@
 # nj-wildlife
-The website for The Culminating Project Assignment of MP 4 2019-20 school year 
-Learning how the readme file works
+This is a basic website that I developed as a school project for one of my programming classes. Its primary goal is to provide a wide experience on using web layouts and incorporating content on a webpage. To develop this website I used HTML, CSS, and Javascript.
+It contains a total of one index page and five additional subpages.
+The three main subpages (Mammals, Birds, and Arthropods) contain the essential content found on this website. There you can find information such as a pysical description of the species, its diet, range, habitat, and other interesting information about animals that can be easily find across the state of New Jersey. The first image of each animal is one that had been taken by me personally. By clicking on those images, they will expand and show information regarding the name of the animal, the location, as well as the exact time at which the photo was taken.
+The other two subpages are the "About" and "References." In the latter one, you can see the complete list of sources from which I selected the information for each animal individually.
+To make navigation easier, I added three separate dropdowns on the three main subpages that scroll automatically to the exact location of the desired animal. You may also click the "Top" button in the bottom-right corner at any time to scroll automaticvally to the top and access the top navigation bar. For these, I have used Javascript and some of its built-in functions.
+Due to the site being for the most part a static one, it soes not include any form of data base, and therefore does not make use of PHP. At the moment, this webpage is highly unresponsive and not quite adaptable to custom window sizes, since it is designed for view in a 1920x1080 tab. Nevertheless, learning to make responsive websites that are even able to shift forms and be compatible with mobile devices is one of my main goals and an objective that I certainly look forward to.
+
